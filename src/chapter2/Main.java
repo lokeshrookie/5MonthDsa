@@ -2,35 +2,32 @@ package chapter2;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * Problem: Place odd elements between even elements(as a wave).
  */
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6};
+//        Scanner s = new Scanner(System.in);
+//        char ch = s.next().charAt(0);
+//        System.out.println(ch + " Index 0");
+//        String st = "Lokesh";
+//        char c = st.charAt(0);
+//        if(){
+            System.out.println("hehe");
+//        }
+//        else{
+//            System.out.println("else");
+//        }
 //
-        MaxMinArr(arr,arr.length);
-        System.out.println(Arrays.toString(arr));
-    }
+//        int a = 6;
+//        long l = a;
+//        int k = (int) l;
+//        int m = 'a';
+//        char h = 65);
+//        System.out.println(h);
 
-    private static void MaxMinArr(int arr[], int size) {
-        int[] aux = new int[size];
-        for (int i = 0; i < size; i++) {
-            aux[i] = arr[i];
-        }
-        int start = 0;
-        int stop = size - 1;
-        for (int i = 0; i < size; i++) {
-            if (i % 2 == 0) {
-                arr[i] = aux[stop];
-                stop -= 1;
-            } else {
-                arr[i] = aux[start];
-                start += 1;
-            }
-        }
-        System.out.println(Arrays.toString(arr));
     }
 
 

@@ -14,6 +14,7 @@ public class MaxMinArray {
 //        MaxMinArr(arr, arr.length);
         maxMinArr(arr, arr.length);
         maxMinArr1(arr, arr.length);
+        maxMinArr2(arr, arr.length);
 
     }
     static void maxMinArr1(int[] arr, int size){
@@ -55,6 +56,37 @@ public class MaxMinArray {
          }
         System.out.println("ans :" + Arrays.toString(arr));
     }
+
+    /*
+    Method 2: Array reverse
+
+   1 2 3 4 5 6 - input
+   6 5 4 3 2 1
+   6 1 2 3 4 5
+   6 1 5 4 3 2
+   6 1 5 2 3 4
+   6 1 5 2 4 3 - output
+
+   */
+    static void maxMinArr2(int[] arr, int size){
+        Arrays.sort(arr);
+        int start = 0;
+        int stop = size-1;
+        while (start < stop) {
+            swap(arr, start, stop);
+            start += 1;
+            stop -= 1;
+        }
+        System.out.println(Arrays.toString(arr));
+
+    }
+    static  void swap(int[] arr, int f, int s){
+        int temp = arr[f];
+        arr[f] = arr[s];
+        arr[s] = temp;
+    }
+
+
 
 
 
