@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 public class WaveArray {
     public static void main(String[] args) {
-        int[] arr = {1,2,0,4,3,6,5,8,99,10};
+//        int[] arr = {1,2,0,4,3,6,5,8,99,10};
+        int[] arr = {8, 1, 2, 3, 4, 5, 6,};
         Arrays.sort(arr);
         waveArray(arr);
         System.out.println(Arrays.toString(arr));
