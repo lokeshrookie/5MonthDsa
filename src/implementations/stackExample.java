@@ -1,6 +1,5 @@
 package implementations;
 
-import javax.swing.text.StyledEditorKit;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Stack;
@@ -15,6 +14,20 @@ import java.util.Stack;
  * OTHER METHODS INCLUDE: set(index, element);
  *                         sort(null) - null is comparator.
  *
+ *  ADVANTAGES OF STACK:
+ *  1. Maintain data in LIFO manner.
+ *  2. Last element is readily available for use.
+ *  3. All operations are of O(1) complexity.
+ *
+ *  DISADVANTAGES:
+ *  1. Manipulation is restricted to the top of the stack.
+ *  2. Not much flexible.
+ *
+ *  APPLICATION:
+ *  1. undo redo in editors.
+ *  2. Browser to store previous tabs.
+ *
+ *
  *
  *
  */
@@ -22,8 +35,6 @@ import java.util.Stack;
 public class stackExample {
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<Integer>();
-        System.out.println(stack.size());
-        System.out.println(stack.size());
         stack.push(5);
         stack.push(10);
         stack.push(5);
@@ -36,7 +47,7 @@ public class stackExample {
         System.out.println(stack);
 
 
-        Iterator it = stack.iterator();
+        Iterator<Integer> it = stack.iterator();
         while(it.hasNext()){
             System.out.println(stack.pop());
         }
