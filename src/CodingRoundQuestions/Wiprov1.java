@@ -1,4 +1,4 @@
-package chapter2;
+package CodingRoundQuestions;
 
 import java.util.Scanner;
 
