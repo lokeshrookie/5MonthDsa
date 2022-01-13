@@ -1,8 +1,4 @@
-package chapter2;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Scanner;
+package CodingRoundQuestions;
 
 /**
  * Problem: Place odd elements between even elements(as a wave).

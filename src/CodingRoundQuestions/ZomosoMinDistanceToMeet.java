@@ -1,6 +1,5 @@
-package chapter2;
+package CodingRoundQuestions;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ZomosoMinDistanceToMeet {
