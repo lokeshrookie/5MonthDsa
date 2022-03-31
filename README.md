@@ -1,52 +1,114 @@
 # 5MonthDsa
 
 
--[ ]This is donn
-[] this is second task
--[] THis is 3
-- [ ] 4
-- [ ] 5
+- [ ] 
+- [ ] 
 
-
-
-| S.no      |      Topic        | Question Name  | Method/Methods|  Status                               |  
-| :---      |   :---            |     :---:      |          ---: |    ---:                               |
-| 1          |     Array         |                |               |   -[] Done                            |
-| 2         |                   |                |               |    - [ ]                              |
-| 3          |                   |                |               |    - [ ] Done                              |
-| 4          |                   |                |               |    - [ ]                              |
-| 5          |                   |                |               |    - [ ]                              |
-| 6          |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
-|           |                   |                |               |    - [ ]                              |
+table
+ 
+- [ ] array     |  S.no   |  Topic                      |   Problem                                 | Solution        |          Tip/Note                |
+- [ ] array     |    1    |   ARRAY                     |   Two Sum                                 |                 |           HashMap                |   
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |         |                             |                                           |                 |                                  |         
