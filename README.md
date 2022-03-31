@@ -4,7 +4,7 @@
 
 | S.no      |      Topic        | Question Name  | Method/Methods|  Status                               |  
 | :---      |   :---            |     :---:      |          ---: |    ---:                               |
-| 1          |     Array         |                |               |    [ ]                              |
+| 1          |     Array         |                |               |   -[] Done                            |
 | 2         |                   |                |               |    - [ ]                              |
 | 3          |                   |                |               |    - [ ] Done                              |
 | 4          |                   |                |               |    - [ ]                              |
