@@ -18,7 +18,8 @@ package chapter1.AlgorithmAnalysis;
 public class LargestSumContagiousSubArray {
     public static void main(String[] args) {
         int[] arr = {5, 4, 0, -10, 6, 7, -2};
-        System.out.println(larestSumSubArray(arr));
+        int[] arr2 = {1, -2, 3, 4, -4, 6, -4, 3, 2};
+        System.out.println(larestSumSubArray(arr2));
     }
 
     static int larestSumSubArray(int[] arr){
