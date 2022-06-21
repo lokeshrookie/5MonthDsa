@@ -15,21 +15,48 @@ public class LinkedListImp {
         }
         System.out.println("END");
     }
-
-    public int delete(int val){
-
+    // search for index of Node with given value.
+    public int search(int val){
         Node temp = head;
-        if(head.val == val){
-             deleteFirst();
-        }
+        int index = 0;
         while(temp != null){
             if(temp.val == val){
-                temp.val = temp.next.val;
-                temp.next = temp.next.next;
+                return index;
             }
             temp = temp.next;
+            index++;
         }
-        return val;
+        return -1;
+    }
+
+    // return node at given index.
+    public Node get(int index){
+        Node temp = head;
+        for (int i = 1; i < index; i++) {
+            temp = temp.next;
+        }
+        return temp;
+    }
+
+    // delete Node at given index.
+    public int delete(int index){
+        if(index >= size){
+            System.out.println("index not found");
+            return -1;
+        }
+        if(index == 0){
+            return deleteFirst();
+        }
+        if(index == size-1){
+            return  deleteLast();
+        }
+        Node temp = head;
+        for(int i = 1; i<index; i++){
+            temp = temp.next;
+        }
+        int val = temp.next.val; // copies prev val to return
+        temp.next = temp.next.next;
+        return  val;
     }
 
     public int  deleteFirst(){
@@ -51,6 +78,12 @@ public class LinkedListImp {
         if(size == 1){
             return deleteFirst();
         }
+        /*
+           Delete last using get method
+           Node prev =  ll.get(size-2);
+           int val = prev.next.val;
+           prev.next = prev.next.next; // simply assign null because it is end of LL.
+         */
         Node temp = head;
         while(temp.next.next != null){
             temp = temp.next;
@@ -136,12 +169,13 @@ public class LinkedListImp {
 class Test{
     public static void main(String[] args) {
         LinkedListImp ll = new LinkedListImp();
-        ll.insertLast(5);
-        ll.insertFirst(1);
-        ll.insertLast(6);
+        ll.insertLast(3);
+        ll.insertLast(2);
+        ll.insertLast(1);
+        ll.insertLast(0);
         ll.display();
-        System.out.println(ll.delete(6)  + " deleted");
-        ll.display();
+        System.out.println();
+        System.out.println(ll.delete(3));
         System.out.println();
         ll.display();
 
