@@ -9,11 +9,11 @@ table
 |         |                             |                                           |                 |                                  |         
 |         |                             |                                           |                 |                                  |         
 |         |                             |                                           |                 |                                  |         
-- [ ] array     |         |                             |                                           |                 |                                  |         
-- [ ] array     |         |                             |                                           |                 |                                  |         
-- [ ] array     |         |                             |                                           |                 |                                  |         
-- [ ] array     |         |                             |                                           |                 |                                  |         
-- [ ] array     |         |                             |                                           |                 |                                  |         
+- [ ] array     |    Array Sum        |                             |                                           |                 |                                  |         
+- [ ] array     |    Linear Search    |                             |                                           |                 |                                  |         
+- [ ] array     |    Binary Search    |                             |                                           |                 |                                  |         
+- [ ] array     |    Max sum contagious subarray    |                             |                                           |                 |                                  |         
+- [ ] array     |    Rotate Array by k positions   |                             |                                           |                 |                                  |         
 - [ ] array     |         |                             |                                           |                 |                                  |         
 - [ ] array     |         |                             |                                           |                 |                                  |         
 - [ ] array     |         |                             |                                           |                 |                                  |         
