@@ -15,6 +15,11 @@ public class LinkedListImp {
         }
         System.out.println("END");
     }
+
+    // Recursive Insertion
+
+
+
     // search for index of Node with given value.
     public int search(int val){
         Node temp = head;
@@ -174,9 +179,6 @@ class Test{
         ll.insertLast(1);
         ll.insertLast(0);
         ll.display();
-        System.out.println();
-        System.out.println(ll.delete(3));
-        System.out.println();
         ll.display();
 
     }
