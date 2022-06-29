@@ -1,6 +1,7 @@
 package LeetCode.L75;
 
 public class FindPivotIndex {
+    //This is same as find the middle index. - Qno: 1991
     public static void main(String[] args) {
         int[] arr = {1,7,3,6,5,6};
         System.out.println(pivotIndex(arr));
