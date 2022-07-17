@@ -1,4 +1,4 @@
-package LoveBabbar;
+package LoveBabbar.Arrays;
 
 import java.util.Scanner;
 
