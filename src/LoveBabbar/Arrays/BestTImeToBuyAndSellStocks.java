@@ -5,6 +5,7 @@ public class BestTImeToBuyAndSellStocks {
         int[] arr = { 7, 1, 5, 6, 4 };
         System.out.println(stocks(arr));
     }
+
     static int stocks(int[] arr){
         int minPrice = arr[0];
         int maxProfit = 0;
