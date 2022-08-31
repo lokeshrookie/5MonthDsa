@@ -1,16 +1,13 @@
-package StriverDSAAtoZ;
+package StriverDSAAtoZ.Basics;
 
 import java.util.Arrays;
 import java.util.Stack;
 
 public class Recursion {
-
-
     public static void main(String[] args) {
         for(int i = 0; i<50; i++){
             System.out.println(fibonacci(i));
         }
-
     }
 
     // print name N times

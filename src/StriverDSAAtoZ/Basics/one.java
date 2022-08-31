@@ -1,4 +1,4 @@
-package StriverDSAAtoZ;
+package StriverDSAAtoZ.Basics;
 
 public class one {
     public static void main(String[] args) {

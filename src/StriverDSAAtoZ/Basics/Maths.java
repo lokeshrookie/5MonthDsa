@@ -1,4 +1,4 @@
-package StriverDSAAtoZ;
+package StriverDSAAtoZ.Basics;
 
 import java.util.Scanner;
 
