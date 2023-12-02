@@ -19,18 +19,12 @@ public class MaxSubArraySum {
     }
     static  int  maxSumSubArray(int[] arr){
         int current = 0;
-        int max = 0;
-        for(int i = 0; i<arr.length; i++){
-            current+=arr[i];
-            if(current <0){
-                current = 0;
-            }
-
-            if(current > max ){
-                max = current;
-            }
-
+        int max = arr[0];
+        for (int j : arr) {
+            if (current <= 0) current = 0;
+            current += j;
+            if (current > max) max = current;
         }
-        return  max;
+        return max;
     }
 }
