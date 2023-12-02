@@ -19,7 +19,7 @@ public class LargestSumContagiousSubArray {
     public static void main(String[] args) {
         int[] arr = {5, 4, 0, -10, 6, 7, -2};
         int[] arr2 = {1, -2, 3, 4, -4, 6, -4, 3, 2};
-        System.out.println(larestSumSubArray(arr2));
+        System.out.println(largestSumSubArray(arr2));
     }
 
     static int larestSumSubArray(int[] arr){
@@ -37,5 +37,20 @@ public class LargestSumContagiousSubArray {
             }
         }
         return maxSum;
+    }
+
+    static int largestSumSubArray(int[] arr){
+        int max = arr[0];
+        int currentMax = 0;
+        for(int i = 0; i<arr.length; i++){
+            currentMax = currentMax+ arr[i];
+            if(currentMax < 0){
+                currentMax = 0;
+            }
+            if(currentMax > max){
+                max = currentMax;
+            }
+        }
+        return  max;
     }
 }

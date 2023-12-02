@@ -23,13 +23,12 @@ public class RotatingAnArrayByKPositions {
 
 
     static void rotateArray(int[] arr, int positions){
-        int temp = arr[0];
-        for(int i = 0; i<arr.length-1; i++){
-            arr[i] = arr[i+1];
+       int firstElement = arr[0];
+       // put element at 0th index to the last index.
+        // and shift the remaining elements to left side by one step
+        for(int index = 0; index<arr.length-1; index++){
+            arr[index] = arr[index+1];
         }
-        /* This is an alternative for the above loop.
-         System.arraycopy(arr, 1, arr, 0, arr.length - 1);
-         */
-        arr[arr.length-1] = temp;
+        arr[arr.length-1] = firstElement;
     }
 }
