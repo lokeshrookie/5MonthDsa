@@ -9,19 +9,23 @@ public class ArrayWave {
         CreateWave(arr);
         System.out.println(Arrays.toString(arr));
     }
+
+    // [8, 1, 3, 2, 5, 4, 6, 2, 4]
     public static void CreateWave(int[] arr) {
-        // the elements at odd index should be less than its neighbour (even index) elements.
-        // i starts from first odd index. and incremented by 2(means only odd elements.).
-        for (int i = 1; i < arr.length; i+=2){
-            // The current index should be odd. and the current elements should be less than previous neighbour..
+        for(int i = 1; i<arr.length; i++){
             if((i-1) > 0 && arr[i] > arr[i-1]){
                 swap(arr, i, i-1);
             }
-            // The current index should not be last index. then only we can the next neighbour.
             if((i+1) < arr.length && arr[i] > arr[i+1]){
-                swap(arr, i, i+1);
+                swap(arr, i , i+1);
             }
         }
+
+
+
+
+
+
     }
 
     public static void swap(int[] arr, int i, int j){
